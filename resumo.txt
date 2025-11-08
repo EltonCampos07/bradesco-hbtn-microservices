@@ -1,0 +1,10 @@
+Micros serviços são um estilo de arquitetura de software que divide uma aplicação em pequenos serviços independentes, cada um responsável por uma funcionalidade específica do sistema. 
+Diferente da arquitetura monolítica, onde todos os módulos estão integrados em um único bloco de código. Os micros serviços permitem que cada componente seja desenvolvido, implantado e escalado de forma autônoma.
+Na arquitetura monolítica, qualquer alteração ou falha pode impactar todo o sistema, dificultando manutenção e escalabilidade. Já a arquitetura de micros serviços promove maior flexibilidade, pois cada serviço pode evoluir independentemente, facilitando o uso de diferentes linguagens, frameworks e bancos de dados.
+Entre os principais benefícios dessa abordagem estão: 
+* escalabilidade
+* facilidade de manutenção
+* resiliência.
+A comunicação entre micros serviços pode ocorrer de duas formas: 
+síncrona, geralmente via HTTP/REST ou gRPC, onde a resposta é imediata.
+E assíncrona, por meio de mensageria com filas ou tópicos (como Kafka ou RabbitMQ), promovendo maior desacoplamento e tolerância a falhas.
